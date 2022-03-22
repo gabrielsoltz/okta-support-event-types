@@ -1,0 +1,15 @@
+system.directory.debugger.extend:
+
+Extend Directory Debugger access for Okta support. This can be used to audit the Directory Debugger access extension. When fired, this event contains information about Directory Debugger access extension.
+
+system.directory.debugger.grant:
+
+Grant Directory Debugger access for Okta support. This can be used to audit the Directory Debugger access grants to Okta support. When fired, this event contains information about Directory Debugger access grant.
+
+system.directory.debugger.query_executed:
+
+A read-only query executed against AD/LDAP instance by Okta support using the Directory Debugger tool. This can be used to audit the queries executed by Okta support using Directory Debugger. When fired, this event contains information about Directory Debugger query.
+
+system.directory.debugger.revoke:
+
+Revoke Directory Debugger access for Okta support. This can be used to audit the Directory Debugger access revoke. When fired, this event contains information about Directory Debugger access revoke.
